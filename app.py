@@ -36,6 +36,9 @@ import time
 import base64
 
 ## Keras
+from tensorflow.python.keras.utils.generic_utils import populate_dict_with_module_objects, to_snake_case
+
+
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import LSTM
