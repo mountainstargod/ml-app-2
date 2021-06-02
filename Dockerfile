@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.8
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
@@ -10,7 +10,7 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 
 COPY . /usr/src/app
 
-CMD ["python3", "app.py"]
+CMD ["python", "app.py"]
 
 
 
