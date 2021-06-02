@@ -16,3 +16,5 @@ jupyterplot==0.0.3
 psutil==5.8.0
 orca==1.6
 orca[server]
+Keras==2.4.3
+Keras-Preprocessing==1.1.2

@@ -35,6 +35,14 @@ import sys
 import time
 import base64
 
+## Keras
+from keras.models import Sequential
+from keras.layers import Dense
+from keras.layers import LSTM
+from keras.layers import Dropout
+from keras.callbacks import EarlyStopping
+from keras.layers import GaussianNoise
+
 sys.path.insert(0, os.path.dirname(__file__))
 
 
