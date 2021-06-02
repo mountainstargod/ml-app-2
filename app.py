@@ -37,6 +37,8 @@ import base64
 
 ## Keras
 #from tensorflow.python.keras.utils.generic_utils import populate_dict_with_module_objects, to_snake_case
+import tensorflow as tf
+from tensorflow import keras
 
 
 from keras.models import Sequential
