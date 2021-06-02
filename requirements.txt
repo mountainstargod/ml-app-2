@@ -16,7 +16,7 @@ jupyterplot==0.0.3
 psutil==5.8.0
 orca==1.6
 orca[server]
-keras==2.4.3
+keras==2.4.0
 keras-models==0.0.7
 Keras-Preprocessing==1.1.2
 tensorflow==2.5.0
