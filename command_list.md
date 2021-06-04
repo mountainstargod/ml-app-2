@@ -4,7 +4,7 @@
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/GhostWriters/DockSTARTer/master/main.sh)"
 
 
-#Configure DS#
+# Configure DS #
 
 ds
 
@@ -12,8 +12,9 @@ ds
 ds -c up
 
 
-#Install CTOP#
+# Install CTOP #
 
 
 $ sudo wget https://github.com/bcicen/ctop/releases/download/v0.7.1/ctop-0.7.1-linux-amd64  -O /usr/local/bin/ctop
+# Activate #
 $ sudo chmod +x /usr/local/bin/ctop
